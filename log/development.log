@@ -4274,3 +4274,781 @@ Served asset /static_pages.css - 304 Not Modified (1ms)
 
 Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-26 20:21:31 -0700
 Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-05-28 02:06:10 +1000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (488.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 3979ms (Views: 3979.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:06:53 +1000
+Served asset /application.css - 304 Not Modified (52ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:06:53 +1000
+Served asset /custom.css - 304 Not Modified (1355ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:06:55 +1000
+Served asset /static_pages.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:06:55 +1000
+Served asset /users.css - 304 Not Modified (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 02:07:13 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:07:13 +1000
+Served asset /application.css - 304 Not Modified (61ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:07:14 +1000
+Served asset /custom.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:07:14 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:07:14 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 02:07:14 +1000
+Served asset /rails.png - 304 Not Modified (27ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 02:08:15 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Compiled custom.css  (7382ms)  (pid 576)
+Compiled application.css  (3ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (60.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 8061ms (Views: 8061.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:24 +1000
+Served asset /application.css - 304 Not Modified (112ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:24 +1000
+Served asset /custom.css - 200 OK (96ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:24 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:24 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 02:08:24 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 02:08:46 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Compiled custom.css  (10631ms)  (pid 576)
+Compiled application.css  (3ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 11017ms (Views: 11015.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:57 +1000
+Served asset /application.css - 304 Not Modified (178ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:57 +1000
+Served asset /custom.css - 200 OK (416ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:58 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:08:58 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 02:08:58 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 02:09:33 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Compiled custom.css  (1775ms)  (pid 576)
+Compiled application.css  (4ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1974ms (Views: 1974.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:09:35 +1000
+Served asset /application.css - 304 Not Modified (105ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:09:35 +1000
+Served asset /custom.css - 200 OK (150ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:09:35 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:09:35 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 02:09:35 +1000
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 02:09:56 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Compiled custom.css  (32930ms)  (pid 576)
+Compiled application.css  (5ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 33311ms (Views: 33310.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:11:13 +1000
+Served asset /application.css - 304 Not Modified (89ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:11:14 +1000
+Served asset /custom.css - 200 OK (159ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:11:14 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:11:14 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 02:11:14 +1000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 02:12:49 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Compiled custom.css  (2623ms)  (pid 576)
+Compiled application.css  (4ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3032ms (Views: 3032.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:12:52 +1000
+Served asset /application.css - 304 Not Modified (255ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:12:53 +1000
+Served asset /custom.css - 200 OK (148ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:12:53 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:12:53 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 02:12:53 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 02:13:10 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Compiled custom.css  (2092ms)  (pid 576)
+Compiled application.css  (4ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2290ms (Views: 2290.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 02:13:14 +1000
+Served asset /application.css - 304 Not Modified (161ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 02:13:14 +1000
+Served asset /custom.css - 200 OK (130ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 02:13:14 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 02:13:14 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 02:13:14 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 03:55:14 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:14 +1000
+Served asset /application.css - 304 Not Modified (101ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:14 +1000
+Served asset /custom.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:15 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:15 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 03:55:15 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 03:55:18 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:19 +1000
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:19 +1000
+Served asset /custom.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:19 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:19 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 03:55:19 +1000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 03:55:21 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 90ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:22 +1000
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:22 +1000
+Served asset /custom.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:22 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 03:55:22 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 03:55:22 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 03:56:32 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:32 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:32 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:32 +1000
+Served asset /application.css - 304 Not Modified (72ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 03:56:32 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:32 +1000
+Served asset /custom.css - 304 Not Modified (60ms)
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-28 03:56:35 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:35 +1000
+Served asset /application.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:35 +1000
+Served asset /custom.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:36 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 03:56:36 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-28 03:57:29 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 64ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 03:57:30 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 03:57:30 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 03:57:30 +1000
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 03:57:30 +1000
+Served asset /custom.css - 304 Not Modified (105ms)
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-28 04:01:39 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 04:01:40 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 04:01:40 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 04:01:40 +1000
+Served asset /application.css - 304 Not Modified (80ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 04:01:40 +1000
+Served asset /custom.css - 304 Not Modified (37ms)
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-28 04:05:57 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (0.0ms)
+Compiled custom.css  (1586ms)  (pid 576)
+Compiled application.css  (4ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 1858ms (Views: 1857.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 04:05:59 +1000
+Served asset /application.css - 304 Not Modified (183ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 04:05:59 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 04:05:59 +1000
+Served asset /custom.css - 200 OK (58ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 04:05:59 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-28 04:06:44 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (0.0ms)
+Compiled custom.css  (1562ms)  (pid 576)
+Compiled application.css  (5ms)  (pid 576)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1773ms (Views: 1772.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 04:06:45 +1000
+Served asset /application.css - 304 Not Modified (156ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 04:06:46 +1000
+Served asset /custom.css - 200 OK (56ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 04:06:46 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 04:06:47 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 04:08:32 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 57ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 04:08:32 +1000
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 04:08:32 +1000
+Served asset /custom.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 04:08:32 +1000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 04:08:32 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 04:08:32 +1000
+Served asset /static_pages.css - 304 Not Modified (3ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120527183009)
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120527183009')[0m
+  [1m[35m (666.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (1.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120527183009)
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateUsers (20120527183009)
+  [1m[36m (1.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120527183009'
+  [1m[36m (194.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120527183009)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120527183009')[0m
+  [1m[35m (274.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-28 05:06:41 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 05:06:42 +1000
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 05:06:42 +1000
+Served asset /custom.css - 304 Not Modified (52ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 05:06:42 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 05:06:42 +1000
+Served asset /users.css - 304 Not Modified (4ms)
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Errno::EIO: Input/output error - <STDERR>: rollback transaction
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-28 13:42:15 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (425.0ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (44.0ms)
+Completed 200 OK in 3630ms (Views: 3630.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 13:43:34 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 246ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-28 13:43:35 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 188ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 13:43:35 +1000
+Served asset /application.css - 304 Not Modified (96ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 13:44:05 +1000
+Served asset /custom.css - 304 Not Modified (12548ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 13:44:18 +1000
+Served asset /static_pages.css - 304 Not Modified (3868ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 13:44:22 +1000
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-28 13:44:22 +1000
+Served asset /rails.png - 304 Not Modified (109ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (266.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (191.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (231.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (208.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120527183009')
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120527183009)
+Migrating to AddIndexToUsersEmail (20120528052019)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120528052019')
+  [1m[36m (5098.3ms)[0m  [1mcommit transaction[0m
+SQLite3::BusyException: database is locked: commit transaction
+  [1m[35m (5.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120527183009)
+Migrating to AddIndexToUsersEmail (20120528052019)
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120528052019')
+  [1m[36m (431.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+
+
+Started GET "/help" for 127.0.0.1 at 2012-05-28 15:43:28 +1000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 252ms (Views: 252.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-28 15:43:29 +1000
+Served asset /application.css - 304 Not Modified (123ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-28 15:44:15 +1000
+Served asset /custom.css - 304 Not Modified (295ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-28 15:44:15 +1000
+Served asset /static_pages.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-28 15:44:16 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120527183009)
+Migrating to AddIndexToUsersEmail (20120528052019)
+Migrating to AddPasswordDigestToUsers (20120528054139)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (68.0ms)[0m  ALTER TABLE "users" ADD "password_digest" varchar(255)
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120528054139')[0m
+  [1m[35m (321.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_email')
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (324.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (342.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (342.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (270.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (166.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120528054139')
+  [1m[36m (215.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120527183009')[0m
+  [1m[35m (272.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120528052019')
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (248.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (214.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (187.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (350.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (212.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120528054139')
+  [1m[36m (299.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120527183009')[0m
+  [1m[35m (246.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120528052019')
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Errno::EIO: Input/output error - <STDERR>: rollback transaction
+
+
+Started GET "/help" for 127.0.0.1 at 2012-05-29 23:26:05 +1000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (499.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (7.0ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 3988ms (Views: 3987.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-29 23:26:41 +1000
+Served asset /application.css - 304 Not Modified (151ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-29 23:26:41 +1000
+Served asset /custom.css - 304 Not Modified (71ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-29 23:26:41 +1000
+Served asset /static_pages.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-29 23:26:41 +1000
+Served asset /users.css - 304 Not Modified (8ms)
+
+
+Started GET "/disclaim" for 127.0.0.1 at 2012-05-30 00:56:29 +1000
+Processing by StaticPagesController#disclaim as HTML
+  Rendered static_pages/disclaim.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 430ms (Views: 428.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-30 00:56:30 +1000
+Served asset /application.css - 304 Not Modified (73ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-05-30 00:56:30 +1000
+Served asset /custom.css - 304 Not Modified (123ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-05-30 00:56:30 +1000
+Served asset /static_pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-05-30 00:56:30 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120527183009)
+Migrating to AddIndexToUsersEmail (20120528052019)
+Migrating to AddPasswordDigestToUsers (20120528054139)
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m

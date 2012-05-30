@@ -1,6 +1,7 @@
 @import "bootstrap";
 
 $grayLight: #999;
+$grayBlue:  #666699;
 
 /* mixins, variables, etc. */
 $grayMediumLight: #eaeaea;
@@ -52,8 +53,16 @@ h2{
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  padding-top: 40 px;
   color: $grayLight;
+}
+
+h3{
+  font-size: 1.4em;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: normal;
+  color: $grayBlue;
 }
 
 p {
@@ -66,13 +75,13 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1 px;
-  padding-top: 9 px;
+  padding-top: 5 px;
   font-weight: bold;
-  line-height: 2;
+  line-height: 1.5;
   &:hover {
     color: #fff;
     text-decoration: none;
