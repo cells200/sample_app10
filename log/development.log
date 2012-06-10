@@ -6279,3 +6279,57 @@ Served asset /users.css - 304 Not Modified (1ms)
 
 Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 12:49:56 +1000
 Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-11 06:48:44 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1014.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 22378ms (Views: 7897.5ms | ActiveRecord: 3954.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:06 +1000
+Served asset /application.css - 200 OK (390ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:06 +1000
+Served asset /custom.css - 200 OK (95ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:06 +1000
+Served asset /static_pages.css - 200 OK (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:07 +1000
+Served asset /users.css - 200 OK (8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-11 06:50:20 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 175ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:20 +1000
+Served asset /custom.css - 304 Not Modified (158ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:20 +1000
+Served asset /application.css - 304 Not Modified (70ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:20 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-11 06:50:20 +1000
+Served asset /users.css - 304 Not Modified (7ms)
