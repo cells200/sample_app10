@@ -5052,3 +5052,1230 @@ Migrating to AddPasswordDigestToUsers (20120528054139)
   [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-01 04:17:43 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered users/show.html.erb within layouts/application (1280.1ms)
+Completed 500 Internal Server Error in 3368ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <%= @user.name %>, <%= @user.email  %>
+  app/views/users/show.html.erb:1:in `_app_views_users_show_html_erb__609934111_277725230'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (16.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (178.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-01 04:29:58 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered users/show.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 82ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <%= @user.name %>, <%= @user.email  %>
+  app/views/users/show.html.erb:1:in `_app_views_users_show_html_erb__609934111_277725230'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (466.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-01 05:55:05 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered users/show.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <%= @user.name %>, <%= @user.email  %>
+  app/views/users/show.html.erb:1:in `_app_views_users_show_html_erb__609934111_277725230'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (389.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-01 07:12:53 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (5.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 4674ms (Views: 1740.1ms | ActiveRecord: 327.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-01 07:12:58 +1000
+Served asset /custom.css - 304 Not Modified (97ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-01 07:12:58 +1000
+Served asset /application.css - 304 Not Modified (67ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-01 07:12:58 +1000
+Served asset /static_pages.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-01 07:12:58 +1000
+Served asset /users.css - 200 OK (5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-02 08:08:25 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (291.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mEXPLAIN (117.0ms)[0m  [1mEXPLAIN QUERY PLAN SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+EXPLAIN for: SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1 [["id", "1"]]
+0|0|TABLE users USING PRIMARY KEY
+
+  Rendered users/show.html.erb within layouts/application (1255.1ms)
+  Rendered layouts/_shim.html.erb (21.0ms)
+  Rendered layouts/_header.html.erb (28.0ms)
+  Rendered layouts/_footer.html.erb (9.0ms)
+Completed 200 OK in 8730ms (Views: 6733.4ms | ActiveRecord: 408.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-02 08:08:51 +1000
+Served asset /application.css - 304 Not Modified (16326ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-02 08:09:40 +1000
+Served asset /custom.css - 304 Not Modified (441ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-02 08:09:41 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-02 08:09:41 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-06-03 12:31:29 +1000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (169.0ms)
+  Rendered layouts/_shim.html.erb (8.0ms)
+  Rendered layouts/_header.html.erb (67.0ms)
+  Rendered layouts/_footer.html.erb (20.0ms)
+Completed 200 OK in 1548ms (Views: 1506.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-03 12:31:38 +1000
+Served asset /application.css - 304 Not Modified (1729ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-03 12:31:39 +1000
+Served asset /custom.css - 304 Not Modified (105ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-03 12:31:40 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-03 12:31:40 +1000
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-03 12:32:03 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 273ms (Views: 273.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-03 12:32:04 +1000
+Served asset /application.css - 304 Not Modified (115ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-03 12:32:04 +1000
+Served asset /custom.css - 304 Not Modified (121ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-03 12:32:04 +1000
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-03 12:32:04 +1000
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-03 12:32:04 +1000
+Served asset /rails.png - 200 OK (144ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-06-05 09:47:43 +1000
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (487.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-06-05 09:48:37 +1000
+
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/pages/help" for 127.0.0.1 at 2012-06-05 10:08:36 +1000
+
+ActionController::RoutingError (No route matches [GET] "/pages/help"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-05 10:18:03 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (7.0ms)
+Completed 200 OK in 7012ms (Views: 1767.1ms | ActiveRecord: 424.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 10:18:11 +1000
+Served asset /application.css - 304 Not Modified (65ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-05 10:18:12 +1000
+Served asset /custom.css - 304 Not Modified (98ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-05 10:18:12 +1000
+Served asset /static_pages.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-05 10:18:12 +1000
+Served asset /users.css - 304 Not Modified (11ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-06-05 10:20:25 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 345ms (Views: 342.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-05 10:20:26 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 10:20:26 +1000
+Served asset /application.css - 304 Not Modified (75ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-05 10:20:26 +1000
+Served asset /custom.css - 304 Not Modified (53ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-05 10:20:26 +1000
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2012-06-05 10:20:34 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "4"]]
+Completed 500 Internal Server Error in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=4):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (274.0ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2012-06-05 10:20:41 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "5"]]
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=5):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (263.0ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-06-06 00:16:03 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered users/show.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 374ms (Views: 274.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 00:16:05 +1000
+Served asset /application.css - 304 Not Modified (136ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-06 00:17:11 +1000
+Served asset /custom.css - 304 Not Modified (167ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-06 00:17:11 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 00:17:12 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-06-06 00:44:53 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 126ms (Views: 124.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 00:44:53 +1000
+Served asset /application.css - 304 Not Modified (84ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-06 00:44:53 +1000
+Served asset /custom.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-06 00:44:54 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 00:44:54 +1000
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-06 04:22:57 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 140ms (Views: 140.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 04:22:58 +1000
+Served asset /application.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-06 04:22:58 +1000
+Served asset /custom.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-06 04:22:58 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 04:22:58 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-06 04:43:17 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (10.0ms)
+Completed 200 OK in 1391ms (Views: 1391.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-06 04:43:18 +1000
+Served asset /custom.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-06 04:43:18 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 04:43:18 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 04:43:18 +1000
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-06 04:55:15 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (10.0ms)
+Compiled custom.css  (4190ms)  (pid 10460)
+Compiled application.css  (9ms)  (pid 10460)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (30.0ms)
+Completed 200 OK in 5160ms (Views: 5160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 04:55:20 +1000
+Served asset /application.css - 304 Not Modified (139ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-06 04:55:21 +1000
+Served asset /custom.css - 200 OK (75ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 04:55:21 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-06 04:55:21 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+  [1m[36m (566.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (222.0ms)[0m  DROP TABLE "users"
+  [1m[36m (202.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (303.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (281.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (193.0ms)[0m  DROP TABLE "users"
+  [1m[36m (195.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (216.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (280.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (345.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (366.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (477.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (599.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120528054139')
+  [1m[36m (315.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120527183009')[0m
+  [1m[35m (320.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120528052019')
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-07 04:39:31 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 8585ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (1833.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-07 04:52:50 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (349.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-07 04:59:19 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (169.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-07 12:12:12 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (189.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 247ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (45.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (308.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-07 16:32:21 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (62.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (268.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-09 06:58:58 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 2858ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (663.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-06-09 07:07:50 +1000
+
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/pages/team" for 127.0.0.1 at 2012-06-09 07:19:23 +1000
+
+ActionController::RoutingError (No route matches [GET] "/pages/team"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-09 07:29:09 +1000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (27.0ms)
+Compiled custom.css  (4351ms)  (pid 3512)
+Compiled application.css  (3ms)  (pid 3512)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 6004ms (Views: 5979.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-09 07:29:15 +1000
+Served asset /application.css - 304 Not Modified (72ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-09 07:29:15 +1000
+Served asset /custom.css - 200 OK (35ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-09 07:29:15 +1000
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-09 07:29:15 +1000
+Served asset /users.css - 304 Not Modified (9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-09 14:19:12 +1000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "user"=>{"name"=>"sdfsadfsd", "email"=>"assdfsd@asdfsd.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('assdfsd@asdfsd.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 2743ms (Views: 148.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-09 14:19:15 +1000
+Served asset /application.css - 304 Not Modified (476ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-09 14:19:15 +1000
+Served asset /custom.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-09 14:19:15 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-09 14:19:15 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-09 14:28:03 +1000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "user"=>{"name"=>"sdfsadfsd", "email"=>"assdfsd@asdfsd.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (2.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('assdfsd@asdfsd.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (8.0ms)
+  Rendered users/new.html.erb within layouts/application (28.0ms)
+Compiled custom.css  (3476ms)  (pid 3512)
+Compiled application.css  (4ms)  (pid 3512)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4094ms (Views: 4079.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-09 14:28:07 +1000
+Served asset /application.css - 304 Not Modified (107ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-09 14:28:08 +1000
+Served asset /custom.css - 200 OK (874ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-09 14:28:09 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-09 14:28:09 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-09 14:59:51 +1000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (22.0ms)
+  Rendered users/new.html.erb within layouts/application (87.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 346ms (Views: 321.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-09 14:59:51 +1000
+Served asset /application.css - 304 Not Modified (89ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-09 14:59:51 +1000
+Served asset /custom.css - 304 Not Modified (152ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-09 14:59:51 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-09 14:59:51 +1000
+Served asset /users.css - 304 Not Modified (23ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-10 11:12:47 +1000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (37.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (22.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (43.0ms)
+  Rendered users/new.html.erb within layouts/application (243.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3623ms (Views: 2358.1ms | ActiveRecord: 60.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:12:53 +1000
+Served asset /application.css - 304 Not Modified (467ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:13:40 +1000
+Served asset /custom.css - 304 Not Modified (121ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:13:40 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:13:41 +1000
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 11:31:06 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 78ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (33.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (1039.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 11:40:37 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (200.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 11:40:46 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (432.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-10 11:42:45 +1000
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 250ms (Views: 236.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:42:45 +1000
+Served asset /application.css - 304 Not Modified (147ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:43:31 +1000
+Served asset /custom.css - 304 Not Modified (167ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:43:31 +1000
+Served asset /static_pages.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:43:31 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-10 11:45:44 +1000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "user"=>{"name"=>"Simon Ng", "email"=>"simon@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('simon@gmail.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (464.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Sun, 10 Jun 2012 01:45:45 UTC +00:00], ["email", "simon@gmail.com"], ["name", "Simon Ng"], ["password_digest", "$2a$10$XGnIfNl/fWCohrtjhP2MweiGC160jASUDC9EE3xNs0544XENOagrS"], ["updated_at", Sun, 10 Jun 2012 01:45:45 UTC +00:00]]
+  [1m[35m (555.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 1621ms (ActiveRecord: 1021.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 11:45:46 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 231ms (Views: 228.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:45:46 +1000
+Served asset /application.css - 304 Not Modified (125ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:07 +1000
+Served asset /custom.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:07 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:07 +1000
+Served asset /users.css - 304 Not Modified (16ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 11:46:21 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 191ms (Views: 188.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:22 +1000
+Served asset /custom.css - 304 Not Modified (57ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:22 +1000
+Served asset /application.css - 304 Not Modified (167ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:22 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:22 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-10 11:46:37 +1000
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (99.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (10.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 263ms (Views: 262.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:38 +1000
+Served asset /custom.css - 304 Not Modified (65ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:38 +1000
+Served asset /application.css - 304 Not Modified (155ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:38 +1000
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:38 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-10 11:46:56 +1000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "user"=>{"name"=>"Ulysses Ng", "email"=>"ulysses@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('ulysses@gmail.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Sun, 10 Jun 2012 01:46:57 UTC +00:00], ["email", "ulysses@gmail.com"], ["name", "Ulysses Ng"], ["password_digest", "$2a$10$CGHkNOEA7SjI3tvpbpxeeuiL9CWMqVZ6INiwTWsZ/azjA11WMJdxS"], ["updated_at", Sun, 10 Jun 2012 01:46:57 UTC +00:00]]
+  [1m[35m (245.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 885ms (ActiveRecord: 247.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-06-10 11:46:57 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 139ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:57 +1000
+Served asset /custom.css - 304 Not Modified (204ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:58 +1000
+Served asset /application.css - 304 Not Modified (482ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:58 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:46:58 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 11:47:05 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:47:05 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:47:05 +1000
+Served asset /application.css - 304 Not Modified (49ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:47:05 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:47:05 +1000
+Served asset /custom.css - 304 Not Modified (45ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 11:59:05 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (7.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 124ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 11:59:05 +1000
+Served asset /custom.css - 304 Not Modified (101ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 11:59:05 +1000
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 11:59:05 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 11:59:05 +1000
+Served asset /application.css - 304 Not Modified (190ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 12:16:13 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+Compiled custom.css  (4063ms)  (pid 3512)
+Compiled application.css  (6ms)  (pid 3512)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 5252ms (Views: 5249.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:19 +1000
+Served asset /application.css - 304 Not Modified (293ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:19 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:19 +1000
+Served asset /custom.css - 200 OK (136ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:19 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 12:16:22 +1000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 94ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:22 +1000
+Served asset /custom.css - 304 Not Modified (65ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:22 +1000
+Served asset /application.css - 304 Not Modified (533ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:23 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 12:16:23 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-10 12:16:23 +1000
+Served asset /rails.png - 200 OK (28ms)
+
+
+Started GET "/user/1" for 127.0.0.1 at 2012-06-10 12:16:50 +1000
+
+ActionController::RoutingError (No route matches [GET] "/user/1"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 12:17:01 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 12:17:01 +1000
+Served asset /application.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 12:17:02 +1000
+Served asset /custom.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 12:17:02 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 12:17:02 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 12:18:49 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+Compiled custom.css  (2986ms)  (pid 3512)
+Compiled application.css  (4ms)  (pid 3512)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3703ms (Views: 3702.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 12:18:53 +1000
+Served asset /application.css - 304 Not Modified (266ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 12:18:53 +1000
+Served asset /custom.css - 200 OK (52ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 12:18:54 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 12:18:54 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-10 12:30:36 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (63.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 309ms (Views: 306.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 12:30:37 +1000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 12:30:37 +1000
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 12:30:37 +1000
+Served asset /custom.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 12:30:37 +1000
+Served asset /application.css - 304 Not Modified (188ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-06-10 12:49:53 +1000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Compiled custom.css  (3100ms)  (pid 3512)
+Compiled application.css  (6ms)  (pid 3512)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 3489ms (Views: 3487.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-10 12:49:56 +1000
+Served asset /application.css - 304 Not Modified (155ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-10 12:49:56 +1000
+Served asset /custom.css - 200 OK (75ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-10 12:49:56 +1000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-10 12:49:56 +1000
+Served asset /static_pages.css - 304 Not Modified (0ms)
