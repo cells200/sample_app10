@@ -14,6 +14,8 @@ class User < ActiveRecord::Base
   has_secure_password
   
   before_save { |user| user.email = email.downcase }
+  before_save :create_remember_token
+  
   validates :name, presence: true, length: { maximum: 51 },  length: { :minimum => 3 }
   VALID_EMAIL_REGEX = /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
   validates :email, presence: true, 
@@ -30,4 +32,11 @@ class User < ActiveRecord::Base
   #validates :age, :numericality => true
   #validates :username, :presence => true
   #validates :username, :uniqueness => true
+  
+  private
+    
+    def create_remember_token
+      self.remember_token = SecureRandom.urlsafe_base64
+    end
+    
 end
