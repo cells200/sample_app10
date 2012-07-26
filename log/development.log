@@ -10721,3 +10721,428 @@ Error: Cannot find module 'C:\tmp\execjs20120715-7088-kbxhdn.js'
 Served asset /application.js - 500 Internal Server Error
 
 
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-25 15:43:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (475.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-25 15:44:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2012-07-25 15:44:54 -0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2012-07-25 15:45:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/Simon/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/Simon/.rvm/gems/ruby-1.9.3-p125@rails3tutorial/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-25 15:45:07 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zbM6IX4DRmE0SCFd8hHUXw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1372.1ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 1881ms (Views: 1541.1ms | ActiveRecord: 339.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 15:45:10 -0700
+Served asset /application.css - 200 OK (627ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 15:45:10 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-1tmlio6.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-25 15:45:13 -0700
+Served asset /rails.png - 200 OK (19ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-25 17:41:48 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (96.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zbM6IX4DRmE0SCFd8hHUXw' LIMIT 1
+  Rendered layouts/_header.html.erb (102.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 302ms (Views: 205.0ms | ActiveRecord: 96.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:41:49 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-z82skq.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:41:52 -0700
+Served asset /application.css - 304 Not Modified (341ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-25 17:41:52 -0700
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-07-25 17:42:57 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1047.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zbM6IX4DRmE0SCFd8hHUXw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1123ms (Views: 1122.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:42:58 -0700
+Served asset /application.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:42:59 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-1apo40i.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-07-25 17:43:08 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "session"=>{"email"=>"simonn@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'simonn@gmail.com' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zbM6IX4DRmE0SCFd8hHUXw' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 205ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:43:08 -0700
+Served asset /application.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:43:08 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-16cxp82.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-07-25 17:55:30 -0700
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (57.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'zbM6IX4DRmE0SCFd8hHUXw' LIMIT 1
+  Rendered layouts/_header.html.erb (97.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 335ms (Views: 296.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:55:30 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-1ssx6ci.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:55:31 -0700
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-07-25 17:55:44 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HmrMzDy0JyrlcWOosu/Q8cM6i/hBs9fhe6DvVLZm5oU=", "user"=>{"name"=>"Simon Ng", "email"=>"simonn@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (20.0ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('simonn@gmail.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (274.0ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["admin", false], ["created_at", Thu, 26 Jul 2012 00:55:47 UTC +00:00], ["email", "simonn@gmail.com"], ["name", "Simon Ng"], ["password_digest", "$2a$10$ZKf3U/S9q8ynjLKRTcI..OQJi0XVkbk8w6p.AxpF/JNKPw9to/QF2"], ["remember_token", "TyAK0BiPzjban-PNDGZGmQ"], ["updated_at", Thu, 26 Jul 2012 00:55:47 UTC +00:00]]
+  [1m[35m (403.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 3521ms (ActiveRecord: 697.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-07-25 17:55:47 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (3.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (41.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'TyAK0BiPzjban-PNDGZGmQ' LIMIT 1
+  Rendered layouts/_header.html.erb (50.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 180ms (Views: 132.0ms | ActiveRecord: 44.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:55:48 -0700
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:55:48 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-1hjsskl.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/users" for 127.0.0.1 at 2012-07-25 17:56:03 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'TyAK0BiPzjban-PNDGZGmQ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (15.0ms)
+  Rendered users/index.html.erb within layouts/application (40.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (8.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 206ms (Views: 196.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:56:03 -0700
+Served asset /application.css - 304 Not Modified (49ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:56:03 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-1f7bio0.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/users" for 127.0.0.1 at 2012-07-25 17:56:12 -0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'TyAK0BiPzjban-PNDGZGmQ' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (4.0ms)
+  Rendered users/index.html.erb within layouts/application (29.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 128ms (Views: 124.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:56:12 -0700
+Served asset /application.css - 304 Not Modified (177ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:56:13 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-tkasqs.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-07-25 17:56:19 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (51.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'TyAK0BiPzjban-PNDGZGmQ' LIMIT 1
+  Rendered layouts/_header.html.erb (8.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 185ms (Views: 132.0ms | ActiveRecord: 51.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-07-25 17:56:19 -0700
+Served asset /application.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-07-25 17:56:19 -0700
+Error compiling asset application.js:
+ExecJS::RuntimeError: 
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+Error: Cannot find module 'C:\tmp\execjs20120725-4404-1q748fp.js'
+    at Function._resolveFilename (module.js:332:11)
+    at Function._load (module.js:279:25)
+    at Array.0 (module.js:479:10)
+    at EventEmitter._tickCallback (node.js:192:40)
+
+  (in /home/Simon/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee)
+Served asset /application.js - 500 Internal Server Error
+
+
