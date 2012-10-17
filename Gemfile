@@ -6,6 +6,7 @@ gem 'bootstrap-sass', '2.0.0'
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate','0.0.6'
+gem 'heroku'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -20,7 +21,7 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails', '2.1.3'
 
 group :test, :development do
   gem 'rspec-rails', '2.9.0'
